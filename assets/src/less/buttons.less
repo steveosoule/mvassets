@@ -1,0 +1,27 @@
+.btn {
+  text-transform: uppercase;
+}
+
+// Black transparent button
+.btn-black {
+  .button-variant(@btn-black-color; @btn-black-bg; @btn-black-border);
+}
+// White transparent button
+.btn-white {
+  .button-variant(@btn-white-color; @btn-white-bg; @btn-white-border);
+}
+.btn-bordered-white {
+  .button-variant(@btn-bordered-white-color; @btn-bordered-white-bg; @btn-bordered-white-border);
+}
+  .btn-bordered-white .glyphicon{
+    color: @brand-primary;
+  }
+
+.btn-group {
+  .btn + .btn,
+  .btn + .btn-group,
+  .btn-group + .btn,
+  .btn-group + .btn-group {
+    margin-left: 0;
+  }
+}

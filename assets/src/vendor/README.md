@@ -1,0 +1,1 @@
+### Bower components will be installed here thanks to the .bowerrc file

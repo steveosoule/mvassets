@@ -1,0 +1,1 @@
+### Add the [various favicon images](http://realfavicongenerator.net) here
